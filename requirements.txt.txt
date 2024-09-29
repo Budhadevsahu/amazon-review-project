@@ -1,0 +1,18 @@
+Required Packages:
+
+Flask
+BeautifulSoup4
+requests
+nltk
+spacy
+textblob
+
+Test Your APIs:
+1.Run Your Flask App:
+python app.py
+
+2.Test Sentiment Analysis API:
+curl -X POST http://127.0.0.1:5000/api/sentiment -H "Content-Type: application/json" -d "{\"review_text\": \"This iPhone is amazing!\"}"
+
+3.Use the curl command:
+curl -X GET http://127.0.0.1:5000/api/reviews?color=Black&storage=128GB&rating=5
